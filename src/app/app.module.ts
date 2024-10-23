@@ -10,6 +10,9 @@ import { LogComponent } from './login/log/log.component';
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
 
+import { DbzModule } from './dbz/dbz.module';
+
+
 
 @NgModule({
   declarations: [
@@ -18,12 +21,14 @@ import { HeroesModule } from './heroes/heroes.module';
 
     LogComponent,
 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
